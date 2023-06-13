@@ -30,4 +30,4 @@ form.addEventListener('submit', evt => {
   form.email.value = '';
   form.message.value = '';
   console.log(state);
-});
+});  
