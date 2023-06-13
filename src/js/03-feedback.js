@@ -26,6 +26,7 @@ form.addEventListener('submit', evt => {
   const email = form.email.value;
   const message = form.message.value;
   const state = { email, message };
+  
   localStorage.removeItem('feedback-form-state');
   form.email.value = '';
   form.message.value = '';
